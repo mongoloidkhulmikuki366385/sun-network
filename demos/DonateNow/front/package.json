@@ -21,7 +21,7 @@
     "@nuxtjs/axios": "^5.0.0",
     "bootstrap": "3.4.1",
     "cross-env": "^5.2.0",
-    "element-ui": "^2.4.6",
+    "element-ui": "^2.15.10",
     "js-cookie": "^2.2.0",
     "moment": "^2.22.2",
     "node-sass": "^4.9.3",
