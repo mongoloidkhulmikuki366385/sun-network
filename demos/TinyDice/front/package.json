@@ -14,7 +14,9 @@
     "generate:test": "PATH_TYPE=test nuxt  generate",
     "generate:pro": "PATH_TYPE=pro nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "config": {
     "nuxt": {
@@ -39,15 +41,17 @@
     "vue-i18n": "^8.1.0",
     "vue-loading-template": "^1.3.0",
     "vue-seamless-scroll": "^1.1.16",
-    "vuedraggable": "^2.16.0"
+    "vuedraggable": "^2.16.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
+    "babel-eslint": "^9.0.0",
     "clipboard": "^2.0.4",
     "eslint": "^5.0.1",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-vue": "^4.0.0",
-    "nodemon": "^1.11.0",
+    "nodemon": "^2.0.17",
     "vue-count-to": "^1.0.13"
-  }
+  },
+  "snyk": true
 }
