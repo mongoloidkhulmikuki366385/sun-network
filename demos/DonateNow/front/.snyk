@@ -1,0 +1,78 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > lodash':
+        patched: '2023-01-15T16:32:01.743Z'
+    - eslint > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - grunt-karma > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-minify-webpack-plugin > babel-core > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - eslint > inquirer > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - eslint > table > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - eslint-plugin-vue > vue-eslint-parser > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - grunt > grunt-legacy-util > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - '@babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash':
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-plugin-source-map-support > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-minify-webpack-plugin > babel-core > babel-types > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-minify-webpack-plugin > babel-core > babel-generator > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-minify-webpack-plugin > babel-core > babel-traverse > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-minify-webpack-plugin > babel-core > babel-template > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-minify-webpack-plugin > babel-core > babel-register > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - '@babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash':
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-minify-webpack-plugin > babel-core > babel-generator > babel-types > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-minify-webpack-plugin > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-minify-webpack-plugin > babel-core > babel-template > babel-types > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-minify-webpack-plugin > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-minify-webpack-plugin > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-minify-webpack-plugin > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-minify-webpack-plugin > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-minify-webpack-plugin > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - babel-minify-webpack-plugin > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2023-01-15T16:32:01.743Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2023-01-15T16:32:01.743Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2023-01-15T16:32:01.743Z'
