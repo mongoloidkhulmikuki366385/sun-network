@@ -26,9 +26,9 @@
   },
   "homepage": "https://tronprotocol.github.io/sun-network",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "express": "^4.17.1",
-    "tronweb": "^2.5.6"
+    "tronweb": "^3.2.6"
   },
   "devDependencies": {
     "@vue/ui": "^0.9.2",
