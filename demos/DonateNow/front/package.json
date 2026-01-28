@@ -24,8 +24,8 @@
     "element-ui": "^2.4.6",
     "js-cookie": "^2.2.0",
     "moment": "^2.22.2",
-    "node-sass": "^4.9.3",
-    "nuxt": "^2.0.0",
+    "node-sass": "^9.0.0",
+    "nuxt": "^3.0.0",
     "sass-loader": "^7.1.0",
     "sunweb": "^1.0.7",
     "tronweb": "^2.7.1",
@@ -40,7 +40,7 @@
     "chai": "^4.1.2",
     "chalk": "^2.4.1",
     "clipboard": "^2.0.4",
-    "eslint": "^4.0.0",
+    "eslint": "^9.26.0",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-vue": "^4.0.0",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
@@ -48,7 +48,7 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
     "@babel/plugin-transform-runtime": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
-    "babel-eslint": "^8.2.1",
+    "babel-eslint": "^10.1.0",
     "babel-loader": "^8.0.6",
     "babel-minify-webpack-plugin": "^0.3.1",
     "babel-plugin-istanbul": "^5.1.4",
@@ -60,7 +60,7 @@
     "grunt-karma": "^3.0.0",
     "husky": "^1.0.0-rc.14",
     "istanbul": "^0.4.5",
-    "nodemon": "^1.11.0",
+    "nodemon": "^2.0.0",
     "vue-count-to": "^1.0.13"
   }
 }
